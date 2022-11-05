@@ -6,23 +6,33 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const Navbar = () => {
   const[click,Click]=useState(false);
   const handleClick=()=>Click(!click);
+
+  const [navcolor,Navcolor]=useState(false);
+  const changenavcolor =()=>{
+    if (window.scrollY>=1){
+          Navcolor(true);
+    }else{
+      Navcolor(false);
+    }
+  };
+  window.addEventListener("scroll",changenavcolor);
   return (
-    <div className="header">
+    <div className={navcolor ? 'header header-navchange':'header'}>
         <Link to="/">
-            <h1>Caffeine Avenue.</h1>
+            <h1 className='logo-name'>Caffeine Avenue.</h1>
         </Link>
         <ul className={click ? "navbar-menu active":"navbar-menu"}>
             <li>
-            <Link to="/">home</Link>
+            <Link to="/">Home</Link>
             </li>
             <li>
-            <Link to="/project">project</Link>
+            <Link to="/shop">Product</Link>
             </li>
             <li>
             <Link to="/about">about</Link>
             </li>
             <li>
-            <Link to="/contact">contact</Link>
+            <Link to="/contact">Contact Us</Link>
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
