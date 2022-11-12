@@ -1,19 +1,41 @@
 import "./footerstyle.css";
-
 import React from 'react';
-import { FaHome, FaPhone } from "react-icons/fa";
+import {Link} from "react-router-dom";
+import { FaGlobe, FaHome, FaPhone } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer">
         <div className="flex-footer">
             <div className="flext-info">
-                <FaHome size={30} style={{color:"fff", margin:"2rem"}}/>
-                <p>Avenue 123, Manila,Philippines</p>
+                <p><FaHome size={20} style={{color:"fff", marginRight:"1rem"}}/>
+                Avenue 123, Manila,Philippines</p>
             </div>
             <div className="flext-info">
-                <FaPhone size={30} style={{color:"fff", margin:"2rem"}}/>
-                <p>+63-99999-99999</p>
+                <p><FaPhone size={20} style={{color:"fff", marginRight:"1rem"}}/>
+                +63-99999-99999</p>
             </div>
+            <div className="flext-info">
+                <p><FaGlobe size={20} style={{color:"fff", marginRight:"1rem"}}/>
+                www.caffeineaveniu.netlify</p>
+            </div>
+        </div>
+        <div className="flex-footer">
+            <Link to="/">Home</Link>
+            <Link to="/shop">Product</Link>
+            <Link to="/about">about</Link>
+            <Link to="/contact">Contact Us</Link>   
+        </div>
+       <div className="flex-footer">
+         <p>
+            You can also follow us on :
+        </p>
+        <p>
+            <FaGlobe size={20} style={{color:"fff", marginRight:"1rem"}}/>
+            <FaGlobe size={20} style={{color:"fff", marginRight:"1rem"}}/>
+            <FaGlobe size={20} style={{color:"fff", marginRight:"1rem"}}/>
+        </p>
+        <br/>
+        <p><span id="copyright">&copy;</span>2022 by del. All rights reserved.</p>
         </div>
     </div>
   )

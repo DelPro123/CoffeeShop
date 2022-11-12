@@ -9,8 +9,9 @@
     z-index: 10;
 }
 .header-navchange{
+    border-bottom: 2px solid rgba(240, 233, 233, 0.6);
     background-color:rgba(192, 125, 71, .6);
-    transition: .6s ease-out;
+    transition: 1s ease-out;
 }
 .logo-name{
      color:white;
@@ -25,12 +26,18 @@
 
 .navbar-menu li a {
   font-size: 1.2rem;
+  padding: 2rem .5rem;
   font-weight: 500;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar-menu li a:hover {
-    color:#dfbea4;
-    transition:.4s ease-in;
+    color:white;
+    height:1rem;
+    width: auto;
+    background-color:#c07d47;
+    padding: 2rem .5rem;
+    border-bottom: 4px solid white;
+    transition: 1s ease-in-out;
   }
 
 .hamburger{
