@@ -13,8 +13,8 @@ const HomeContent = () => {
             <p className="coffee-love"> I love Caffeine</p>
             <p className="quotes"> Good ideas start with coffee</p>
             <div className="btn">
-              <Link to="/contact" className="Contact-btn" >Order Now!</Link>
-              <Link to="/shop" className="Product-btn">Product</Link>
+              <Link to="/product" className="Contact-btn" >Order Now!</Link>
+              <Link to="/contact" className="Product-btn">contact</Link>
             </div>
          </div>
     </div>

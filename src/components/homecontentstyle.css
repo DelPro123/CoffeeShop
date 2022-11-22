@@ -36,12 +36,12 @@
 
 .coffee-love{
     -webkit-text-stroke: 0.1vw white ;
-    font-size:6rem;
+    font-size:4rem;
     color: #c07d47;
 }
 .quotes{
     color:white;
-    font-size:3rem ;
+    font-size:2rem ;
     border-bottom: 3px dashed #c07d47;
     padding-bottom:5px ;
 }
@@ -51,30 +51,30 @@
 }
 .Product-btn{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size:1.5rem ;
+  font-size:1.3rem ;
   background-color: #c07d47;
   color: white;
   margin: 3px;
-  padding: 10px 50px;
-  border: 3px solid white;
-  border-radius: 5px;
+  padding: 10px 40px;
+  border: 2px solid white;
+  border-radius: 3px;
 }
 .Product-btn:hover{ 
     background-color:transparent;
     color:white;
     transition:.5s ease-in-out;
-    border: 5px solid #c07d47;
-    border-radius: 5px;
+    border: 2px solid #c07d47;
+    border-radius: 3px;
   }
 .Contact-btn{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:1.5rem ;
+    font-size:1.3rem ;
     background-color: transparent;
     color: white;
     padding: 10px 30px;
     margin: 3px;
-    border: 3px solid white;
-    border-radius: 5px;
+    border: 2px solid white;
+    border-radius: 3px;
   }
   .Contact-btn:hover{ 
     color: white;

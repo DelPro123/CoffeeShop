@@ -1,13 +1,11 @@
 import React from "react";
 import "./productstyle.css";
-
-const ProductCard =()=>{
+const ProductContent =()=>{
     return(
         <div className="product">
-            
-
+          
         </div>
     )
 }
 
-export default ProductCard;
+export default ProductContent;

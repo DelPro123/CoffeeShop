@@ -9,11 +9,12 @@
     display: flex;
     flex-direction:column;
     justify-content:center;
-    margin: 2rem 6rem;
+    margin: 2rem 8rem;
     justify-items: center;
 }
 
 p,a{
+    font-size: 14px;
     color: white;
     justify-content: end;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
