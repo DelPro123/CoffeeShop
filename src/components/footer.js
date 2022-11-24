@@ -7,15 +7,15 @@ const Footer = () => {
     <div className="footer">
         <div className="flex-footer">
             <div className="flext-info">
-                <p><FaHome size={15} style={{color:"fff", marginRight:"1rem"}}/>
+                <p><FaHome size={15} style={{color:"fff"}}/>
                 Avenue 123, Manila,Philippines</p>
             </div>
             <div className="flext-info">
-                <p><FaPhone size={15} style={{color:"fff", marginRight:"1rem"}}/>
+                <p><FaPhone size={15} style={{color:"fff"}}/>
                 +63-99999-99999</p>
             </div>
             <div className="flext-info">
-                <p><FaGlobe size={15} style={{color:"fff", marginRight:"1rem"}}/>
+                <p><FaGlobe size={15} style={{color:"fff"}}/>
                 www.caffeineaveniu.netlify</p>
             </div>
         </div>

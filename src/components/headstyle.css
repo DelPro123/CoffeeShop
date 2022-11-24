@@ -32,6 +32,7 @@
     -webkit-text-stroke: 0.1vw white ;
     font-size:4rem;
     color: #c07d47;
+    text-align: center;
 }
 #quotes{
     color:white;

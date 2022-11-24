@@ -29,14 +29,14 @@ const Navbar = () => {
             <Link to="/product">Product</Link>
             </li>
             <li>
-            <Link to="/about">about</Link>
+            <Link to="/about">About</Link>
             </li>
             <li>
             <Link to="/contact">Contact Us</Link>
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
-            {click ? ( <FaTimes size={20} style={{color:"fff"}}/>):(<FaBars size={20} style={{color:"fff"}}/>)};
+            {click ? ( <FaTimes size={20} style={{color:"fff"}}/>):(<FaBars size={20} style={{color:"fff"}}/>)}
         </div>
     </div>
   )
