@@ -19,3 +19,9 @@ h1, h4, a{
 ul{
   list-style-type: none;
 }
+
+.title{
+  text-align: center;
+  margin:20px;
+  color: white;
+}
