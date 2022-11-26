@@ -7,8 +7,7 @@ const ContactContent=()=>{
             <div className="contact-flex">
             <div class="mapouter">
                 <div class="gmap_canvas">
-                    <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Caffeine Ave., Pilapil Dental Clinic, Tanay, Rizal, Philippines&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                    </iframe>
+                    <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Caffeine Ave., Pilapil Dental Clinic, Tanay, Rizal, Philippines&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" title="myFrame"/>
                 </div>
             </div>
             </div>
