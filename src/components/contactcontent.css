@@ -30,7 +30,6 @@ h3{
 form{
     display: flex;
     flex-direction:column;
-    margin:1rem;
 }
 label{
     color: white;
@@ -87,7 +86,7 @@ textarea{
     .mapouter{
         position:relative;
         margin: 10px;
-        width:280px;
+        width:250px;
         height:auto;
     }
     .gmap_canvas {
@@ -116,7 +115,7 @@ textarea{
     input{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color:white;
-        width: 290px;
+        width: 250px;
         height: 40px;
         border: 2px solid rgba(192, 125, 71, .6);
         background-color: black;
@@ -127,7 +126,7 @@ textarea{
     textarea{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color:white;
-        width: 290px;
+        width: 250px;
         height: 200px;
         border: 2px solid rgba(192, 125, 71, .6);
         background-color: black;
