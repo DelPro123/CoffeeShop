@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./navbarstyle.css";
+import "./headstyle.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -16,6 +17,8 @@ const Navbar = () => {
     }
   };
   window.addEventListener("scroll",changenavcolor);
+
+  
   return (
     <div className={navcolor ? 'header header-navchange':'header'}>
         <Link to="/">

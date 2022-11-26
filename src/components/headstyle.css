@@ -5,6 +5,8 @@
     position: relative;
     margin-top:-20px;
     z-index: 1;
+    transition:1s;
+    overflow: hidden;
 }
 .head::before{
    content: "";
