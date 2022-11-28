@@ -42,3 +42,36 @@
     
     
 }
+
+@media screen and (min-width:701px) and (max-width:1230px){
+    .product{
+        margin: 1rem auto;
+    }
+    .product-card{
+        background:rgba(192, 125, 71, .6);
+        height: 540px;
+        border-radius: 4px;
+        padding: 1.2rem 1rem;
+        
+    }
+    .product-card img{
+        width: 100%;
+        border-radius:4px;
+    }
+    .product-details p {
+     font-size: 15px;
+     text-align:justify;
+     margin: 20px;
+    }
+    .product-title{
+        color:white;
+        text-align:center;
+        margin: 3px;
+    }
+    .product-details{
+        text-align: center;
+        display: block;
+    }
+    
+    
+    }
