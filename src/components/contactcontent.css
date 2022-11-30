@@ -100,12 +100,12 @@ textarea{
     .gmap_iframe {height:400px!important;}
     
     
-    form{
+    .contact-form{
         display: flex;
         flex-direction:column;
         justify-content:center;
     }
-    label{
+    .contact-label{
         position: relative;
         color: white;
         font-size: 15px;
@@ -113,7 +113,7 @@ textarea{
         padding: 10px 5px;
     
     }
-    input{
+    .contact-input{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color:white;
         width: 250px;
