@@ -27,19 +27,19 @@ h3{
 .gmap_iframe {height:500px!important;}
 
 
-form{
+.contact-form{
     display: flex;
     flex-direction:column;
     margin: 0 2rem;
 }
-label{
+.contact-label{
     color: white;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding:5px 0;
 
 }
-input{
+.contact-input{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:white;
     width: 500px;
