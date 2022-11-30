@@ -83,3 +83,9 @@ select{
     border-radius: 5px;
     padding: 5px;
 }
+
+@media screen and (max-width:720px) {
+  .Modal-content {
+    transform: scale(.8);
+  }
+}
